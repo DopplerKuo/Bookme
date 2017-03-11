@@ -404,7 +404,8 @@ a {
   background-repeat: no-repeat; }
 
 .recommend-content {
-  width: 89%; }
+  width: 89%;
+  max-width: 360px; }
 
 .recommend-img {
   position: relative;
@@ -531,14 +532,15 @@ a {
     transform: translateY(0%); } }
 
 .check .recommend-card {
-  display: block; }
+  display: block;
+  background-color: #DFE8EE;
+  background-image: none; }
 
 .check .recommend-content {
   width: 100%;
   min-height: 100%;
   padding-bottom: 10px;
-  background-color: #DFE8EE;
-  margin: 0;
+  margin: 0 auto;
   transition: 0.3 ease; }
 
 .check .recommend-img {
