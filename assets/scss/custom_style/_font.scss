@@ -1,0 +1,47 @@
+*:not(.fa) {
+  font-family: $p300;
+  // -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+	letter-spacing: .5px;
+}
+//font-size
+h1,h2,h3 { text-align: left; }
+h1 { 
+	font-family: $p400;
+	font-weight: 400;
+	font-size: 40px;
+}
+.recommend-text h2 { 
+	font-size: 15px;
+	letter-spacing: .5px;
+	b {
+		font-family: $p500;
+		font-weight: 500;
+		margin-right: 10px;
+	}
+}
+.only-need h3 { 
+	font-size: 13px;
+	color: $main;
+}
+span { font-size: 13px }
+.recommend-text p { 
+	font-size: 14px;
+	color: rgba(0,0,0,.5);
+	text-align: left;
+	font-family: $p400;
+	font-weight: 400;
+	margin: 7px 0 15px;
+	padding-bottom: 15px;
+	box-shadow: 0 1px 0 0 rgba(0,0,0,.15);
+}
+
+@media screen and (max-width:$breakpoint-medium) {
+
+}
+@media screen and (max-width:$breakpoint-small) {
+
+}
+@media screen and (max-width:$breakpoint-xsmall) {
+
+}
