@@ -17,4 +17,12 @@ $(window).load(function() {
 	$('.check-back-btn').click(function() {
 		$('#recommend').removeClass('check')
 	})
+	// $(".inputWrapper").mousedown(function() {
+ //      var button = $(this);
+ //      button.addClass('clicked');
+ //      setTimeout(function(){
+ //          button.removeClass('clicked');
+ //      },50);
+ //      alert("?")
+ //  });
 })

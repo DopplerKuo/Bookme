@@ -970,3 +970,7 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.input-hidden {
+  display: none;
+}
