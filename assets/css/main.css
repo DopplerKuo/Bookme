@@ -958,3 +958,15 @@ a {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+.spot-img {
+  background: #ddd;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1%;
+  border-radius: 5px;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
